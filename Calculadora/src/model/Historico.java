@@ -13,5 +13,6 @@ public class Historico {
     private Integer id;
     private double primeiroValor;
     private double segundoValor;
-    
+    private String operador;
+    private double resultado;
 }
