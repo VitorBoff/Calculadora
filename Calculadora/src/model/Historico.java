@@ -15,4 +15,44 @@ public class Historico {
     private double segundoValor;
     private String operador;
     private double resultado;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public double getPrimeiroValor() {
+        return primeiroValor;
+    }
+
+    public void setPrimeiroValor(double primeiroValor) {
+        this.primeiroValor = primeiroValor;
+    }
+
+    public double getSegundoValor() {
+        return segundoValor;
+    }
+
+    public void setSegundoValor(double segundoValor) {
+        this.segundoValor = segundoValor;
+    }
+
+    public String getOperador() {
+        return operador;
+    }
+
+    public void setOperador(String operador) {
+        this.operador = operador;
+    }
+
+    public double getResultado() {
+        return resultado;
+    }
+
+    public void setResultado(double resultado) {
+        this.resultado = resultado;
+    }
 }
