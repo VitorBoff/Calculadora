@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package control;
+package calculadora.control;
 
 import java.io.IOException;
 import java.net.URL;
@@ -21,7 +21,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.Query;
-import model.Usuario;
+import calculadora.model.Usuario;
 
 /**
  * FXML Controller class
