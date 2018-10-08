@@ -5,11 +5,21 @@
  */
 package calculadora.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 /**
  *
  * @author 04646777266
  */
+@Entity
 public class Usuario {
+    @Id
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
+    private String usuario;
+    private String senha;
     private Integer id;
 
     public Integer getId() {
@@ -35,6 +45,5 @@ public class Usuario {
     public void setSenha(String senha) {
         this.senha = senha;
     }
-    private String usuario;
-    private String senha;
+ 
 }

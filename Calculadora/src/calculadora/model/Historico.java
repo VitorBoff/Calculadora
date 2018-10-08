@@ -5,11 +5,19 @@
  */
 package calculadora.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 /**
  *
  * @author 04646777266
  */
+@Entity
 public class Historico {
+    @Id
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Integer id;
     private double primeiroValor;
     private double segundoValor;
